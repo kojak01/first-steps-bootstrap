@@ -1,0 +1,152 @@
+$main-color: #ffc107;
+$light-color: #fff;
+$gray-color: #343a40;
+$contact-ground: #c9c1c1;
+$body-color: #f7f2f2;
+
+$web-title: 'Dancing Script', cursive;
+
+body {
+  background-color: $body-color;
+  font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nameshop {
+  color: $main-color !important;
+  font-family: $web-title;
+  font-size: 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $main-color;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $light-color;
+  background: $gray-color;
+}
+.btn {
+  border-radius: 1px;
+}
+.btn-dark {
+  color: $main-color;
+}
+.btn-dark:hover {
+  background: $gray-color;
+}
+.btn-warning:hover {
+  color: $light-color;
+  border-color: $light-color;
+}
+.carousel-inner, .carousel-item {
+    height: 70vh;
+  }
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption h3, h4 {
+  font-family: $web-title;
+  font-size: 32px;
+}
+/* Brands New Arrivals*/
+.products h2 {
+  font-family: Optima, sans-serif;
+  font-weight: 600;
+}
+.list-group {
+  text-align: center;
+}
+.list-group-item:hover {
+  background: $gray-color;
+  color: $light-color;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card-position {
+  position: absolute;
+}
+.col-lg-9 .card img {
+  transition: 1s;
+}
+.col-lg-9 .card:hover img {
+  transform: scale(0.97);
+}
+
+.winter-sale {
+  bottom: 0;
+  h5 {
+    color: $light-color;
+    text-align: center;
+  }
+}
+
+.get-inspired  {
+  bottom: 0;
+  h5 {
+    color: $light-color;
+    text-align: center;
+  }
+}
+
+.new-and-ideas {
+  left: 0;
+  top: 0;
+  h5 {
+    text-align: center;
+    color: $light-color;
+  }
+}
+/*Contact Section*/
+
+.change-the-order {
+  background: $contact-ground;
+  .card {
+    border: none;
+    background: transparent;
+  }
+}
+
+.card-body .text {
+  font-size: 13px !important;
+}
+
+.card-body i {
+  color: #000000;
+  padding-right: 5px;
+}
+
+/*Social Media Icon*/
+
+.fa-facebook-f:hover {
+  color: rgb(0, 60, 255);
+}
+.fa-instagram:hover {
+  color: rgb(255, 0, 200);
+}
+.fa-twitter:hover {
+  color:rgb(6, 122, 255);
+}
+.fa-youtube:hover {
+  color: rgb(228, 22, 22);
+}
+
+/* Footer */
+
+.footer {
+  background: $main-color;
+  .container h6 {
+    margin: 0;
+    padding-left: 10px;
+  }
+  .list-inline {
+    margin: 0;
+    text-align: right;
+    a {
+      margin-top: 10px 0;
+      padding-left: 15px;
+    }
+  }
+}
+
+
